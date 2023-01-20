@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name ="firstname" value="manisha"></parameter>
+  <parameter name ="lastname" value="basker"></parameter>
+  <parameter name ="phonenumber" value="123456789"></parameter>
+  <parameter name ="emailaddress" value="google10@gmail.com"></parameter>
+  <classes>
+  <class name="testng_Feautures.Parameterized_Concept"></class>
+  <class name="testng_Feautures.Demo_Parameterized"></class>
+  </classes>
+  
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
